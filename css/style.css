@@ -42,7 +42,7 @@ p{
 	word-spacing:  4px;
 }
 
-.header:before{
+/* .header:before{
 	content: "";
 	position: absolute;
 	top: 0%;
@@ -64,7 +64,7 @@ p{
 	opacity: 0.4%;
 	z-index: -1;
 	background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);	
-}
+} */
 .nav-item a{
 	color: #fff!important;
 	font-weight: bold;
@@ -319,7 +319,7 @@ p{
 
 }
 
-.box a:after {
+/* .box a:after {
 	content: "\f10d"
 	font-family: FontAwesome;
 	width: 40px;
@@ -334,7 +334,7 @@ p{
 	justify-content: center;
 	align-items: center;
 
-}
+} */
 .box h1{
 	font-size: 18px;
 	font-weight: 700;
@@ -436,7 +436,7 @@ form:hover .form-button button{
 {
 	.nav-item{
 		text-align: center;
-		padding: 20px 0px;
+		padding: 5px 0px;
 	}
 	.pricing, .contactus,.happyclients, .extra-div{
 		height: auto;
