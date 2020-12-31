@@ -1,0 +1,458 @@
+html{
+	scroll-behavior: smooth;
+}
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url(../images/home.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%,0 0); 
+	position: relative;
+	box-sizing: border-box;
+}
+
+a{ text-decoration: none;}
+
+
+a:hover{
+	text-decoration: none;
+}
+
+li{list-style: none;
+}
+i{
+	color: #2fccd0;
+}
+
+p{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #606060;
+}
+
+.extra-div h2, .servicediv h2{
+	font-size: 0.9rem;
+	margin: 20px 0 15px 0;
+	font-weight: bold;
+	line-height: 1.1;
+	word-spacing:  4px;
+}
+
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%
+	left: 0%;
+	right: 0%;
+	opacity: 0.4%;
+	z-index: -1;
+	background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+.navbar:before{
+	
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%
+	left: 0%;
+	right: 0%;
+	opacity: 0.4%;
+	z-index: -1;
+	background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);	
+}
+.nav-item a{
+	color: #fff!important;
+	font-weight: bold;
+
+}
+
+.header-section{
+	width: 100%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+
+.header-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;  
+/*by default 1rem= 16pixel*/
+	font-weight: 400px;
+	line-height: 1.4;
+	text-align: center;
+
+}
+.header-buttons a:hover{
+	color: #50d1c0;
+	background:#fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.center-div p{
+	font-size: 1.3rem;
+	padding: 10px 0 20px 0;
+	color: white;
+}
+
+/*<!-- ************************header part end***************** -->*/
+/*<!-- **********************extra headers starts************** -->*/
+.header-extradiv{
+	width: 100%;
+	height: auto;margin: 100px 0px;
+	text-align: center;
+}
+
+.extra-div{
+	background-color: #fff;
+	/*border:1px solid #000;*/
+	padding: 50px!important;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+.extra-div:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+	transition: 0.3s;
+
+}
+
+/*<!-- **********************extra headers starts************** -->*/
+
+/*<!-- **********************Service offers started************** -->*/
+.serviceoffers{
+	background:#f7f7f9;
+	padding: 50px 0px;
+	margin-bottom: 50px;
+}
+
+.headings{
+	margin-bottom: 50p;
+
+}
+
+.headings h1{
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.names h1{
+	color: 2e2e2e;
+	font-size: 1.9rem;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.service-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.progress{
+	height: 0.6rem!important;
+	margin-bottom: 20px!important;
+
+}
+/*<!-- **********************Service offers ends***************** -->*/
+
+/*<!-- ******************Project done start********************** -->*/
+
+.project-work{
+	margin:100px 0;
+}
+.project-works h1{
+	font-size: 2rem;
+	text-align: center;
+}
+/*<!-- ******************Project done ends********************** -->*/
+/*<!-- ******************Pricing starts********************** -->*/
+.pricing{
+	width: 100%;
+	height: 100vh;
+	padding: 50px;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	right:0;
+	left: 0;
+	background: linear-gradient(155deg, #16c9f6 50%, #fff 0%);	
+}
+/*.pricing:before{
+
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%
+	left: 0%;
+	right: 0%;
+	z-index: -1;
+	background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);	
+}*/
+.money{
+	font-size: 40px;
+	line-height: 1;
+	color: #606060;
+}
+.card{
+	transition: 0.4s ease;
+}
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background:#fff!important;
+	padding: 25px 9px!important
+}
+.class-body{
+	padding: 30px 0px!important;
+}
+.class-body li{
+	margin: 10px 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #606060;
+}
+.card-footer{
+	background:white!important;
+	padding: 30px 0px!important;
+}
+.card-footer a{
+	border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-size: 1rem;  
+/*by default 1rem= 16pixel*/
+	font-weight: 400px;
+	line-height: 1.4;
+	text-align: center;
+
+}
+.card-footer a:hover{
+	color: #fff;
+	background:#50d1c0;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.card:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.card:hover .card-header, .card:hover .money{
+	color: #50d1c0;
+}
+.card-second{
+	transform: translateY(-20px);
+}
+/*<!-- ******************Pricing ends********************** -->*/
+
+/*<!-- *******************feedbacks starts************************ -->*/
+.happyclients{
+	height: 100vh;
+	width: 100%;
+	padding: 40px 0px;
+}
+.box{
+
+	text-align: center;
+	border:1px solid rgba(0,0,0,0.3);
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+	border-radius: 2px;
+	transition: 0.3s ease;
+}
+
+.box:hover{
+	background:#16c9f6;
+}
+
+.box:hover p{
+	color: white;
+}
+
+.carousel-indicators{
+	position: absolute;
+	right: 0;
+	bottom: -20%!important;
+}
+.carousel-indicators li{
+	background-color: #16c9f6!important;
+}
+
+.box a{
+	position: relative;
+
+}
+.box a img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+
+}
+
+.box a:after {
+	content: "\f10d"
+	font-family: FontAwesome;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background:linear-gradient(to right, #1e5579 0%, #3ccdbb 0%, #16c9f6 100% );
+	color: white;
+	position: absolute;
+	top: 120%;
+	left: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.box h1{
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.box h2{
+	font-size: 13px;
+	font-weight: 400px;
+	color: #666666;
+	margin-bottom: 20px;
+
+}
+.box h1:hover , .box h2:hover{
+	color: #50d1c0;
+
+}
+/*<!-- *******************feedbacks ends************************** -->*/
+/*<!-- *******************contact us Starts************************** -->*/
+.contactus{
+	width: 100%;
+	height: 100vh;
+	padding:80px 0;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	right:0;
+	left: 0;
+	background: linear-gradient(330deg, #16c9f6 55%, #fff 0%);/*25deg*/
+}
+
+.form-button button{
+	border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-size: 1rem;  
+	font-weight: 400px;
+	line-height: 1.4;
+	text-align: center;
+	background:transparent;
+}
+
+form:hover .form-button button{
+	background-color: #fff;
+	color: #50d1c0;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3)
+}
+
+::placeholder{
+	font-size: 0.85rem;
+}
+/*<!-- *******************contact us ends************************** -->*/
+/*<!-- *******************footer stars************************** -->*/
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0px 20px 0px;
+	background-color:/* #00abff*//*#16c9f6*/	#bfbfbf
+}
+.footersection p{
+	color: #fff;
+
+}
+.footersection li a {
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400px;
+	color: #fff;
+	text-transform: capitalize;
+}
+.footersection h3{
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.3rem!important;
+	font-weight: 600;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+/*#myBtn{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index:99;
+	border:none;
+	color: #fff;
+	background-color: #00abff;
+	border-radius: 10px;
+}*/
+/*<!-- *******************footer  ends************************** -->*/
+/*----------------media queries-------------------------*/
+
+@media(max-width: 768px)
+{
+	.nav-item{
+		text-align: center;
+		padding: 20px 0px;
+	}
+	.pricing, .contactus,.happyclients, .extra-div{
+		height: auto;
+		margin-top: 50px;
+	}
+
+	.card-second{
+		transform: translateY(0px);
+		margin: 30px 0;
+	}
+	.contactus p{
+		padding: 0 50px;
+	}
+	.footer-div{
+		text-align: left!important;
+		margin: 30px 0;
+
+	}
+}
